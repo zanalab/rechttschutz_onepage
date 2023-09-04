@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-5/12">
             <div className="hero-content">
-              <h1 className="mb-3 text-6xl font-bold leading-wide text-dark">
+              <h1 className="mb-3 text-5xl font-bold leading-wide text-dark font-primary">
                 Ihr Partner <br />
                 im Rechtsbereich <br />
               </h1>
@@ -19,7 +19,7 @@ const Hero = () => {
                 <li>
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center bg-black py-2 px-8 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
+                    className="inline-flex items-center justify-center bg-brand-orange py-2 px-8 text-center text-base font-semibold text-dark hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
                   >
                      Jetzt Beraten Lassen
                   </a>

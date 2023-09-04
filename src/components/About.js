@@ -68,7 +68,7 @@ const About = () => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
               <span className="mb-2 block text-lg font-semibold text-black">Über Uns</span>
-              <h2 className="mb-8 text-8xl font-bold text-dark sm:text-6xl">
+              <h2 className="mb-8 text-8xl font-bold text-dark sm:text-6xl font-primary">
                 Mehr als nur Rechtschutz.
                 <br />
                 Ein Partner an Ihrer Seite.
@@ -86,7 +86,7 @@ const About = () => {
               </p>
               <a
                 href="/"
-                className="inline-flex items-center justify-center bg-black py-2 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+                className="inline-flex items-center justify-center bg-brand-orange py-2 px-10 text-center text-base font-semibold text-dark hover:bg-opacity-90 lg:px-8 xl:px-10"
               >
                 Lernen Sie unser Team kennen
               </a>

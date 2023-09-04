@@ -7,12 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      //   'gradient-conic':
-      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      // },
+      colors: {
+        brand: {
+          gray: '#3d3d3d',
+          yellow: '#ffde59',
+          orange: '#ffbd59',
+        },
+      },
+      fontFamily: {
+        primary: ['var(--font-montserrat)'],
+        secondary: ['var(--font-openSans)'],
+      },
     },
   },
-  plugins: [require("tailgrids/plugin")],
-}
+  plugins: [require('tailgrids/plugin')],
+};

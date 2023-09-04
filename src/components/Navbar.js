@@ -39,7 +39,7 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.6 }}
-          className="flex w-full items-center bg-white border-b-2 border-black fixed z-50"
+          className="flex w-full items-center bg-white border-b-2 border-brand-yellow fixed z-50"
         >
           <div className="container mx-auto">
             <div className="relative -mx-4 flex items-center justify-between">
@@ -49,9 +49,9 @@ const Navbar = () => {
                   className="block w-full py-5"
                 >
                   <Image
-                    src="/images/logo.svg"
-                    width={100}
-                    height={60}
+                    src="/images/logo.png"
+                    width={200}
+                    height={100}
                     alt="Logo"
                   />
                 </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="/"
-                          className="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
+                          className="flex py-2 text-base font-medium text-dark hover:text-brand-orange lg:ml-2 lg:inline-flex"
                         >
                           Home
                         </a>
@@ -87,17 +87,25 @@ const Navbar = () => {
                       <li>
                         <a
                           href="/"
-                          className="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
+                          className="flex py-2 text-base font-medium text-dark hover:text-brand-orange lg:ml-12 lg:inline-flex"
                         >
-                          Payment
+                          Über uns
                         </a>
                       </li>
                       <li>
                         <a
                           href="/"
-                          className="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex"
+                          className="flex py-2 text-base font-medium text-dark hover:text-brand-orange lg:ml-12 lg:inline-flex"
                         >
-                          Features
+                          Dienstleistungen
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="flex py-2 text-base font-medium text-dark hover:text-brand-orange lg:ml-12 lg:inline-flex"
+                        >
+                          Preise
                         </a>
                       </li>
                     </ul>
@@ -106,7 +114,7 @@ const Navbar = () => {
                 <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
                   <Link
                     href="/"
-                    className="bg-black py-2 px-8 text-base font-medium text-white hover:bg-opacity-90"
+                    className="bg-brand-gray py-2 px-8 text-base font-medium text-white hover:bg-opacity-90"
                   >
                     Call Us
                   </Link>

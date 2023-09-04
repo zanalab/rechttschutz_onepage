@@ -8,8 +8,8 @@ const Team = () => {
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4">
             <div class="mx-auto mb-[60px] max-w-[510px] text-center">
-              <span class="mb-2 block text-lg font-semibold text-dark">Unser Team</span>
-              <h2 class="mb-4 text-3xl font-bold whitespace-nowrap text-dark sm:text-4xl md:text-[40px]">
+              <span class="mb-2 block text-lg font-semibold text-brand-orange">Unser Team</span>
+              <h2 class="mb-4 text-3xl font-bold whitespace-nowrap text-dark sm:text-4xl md:text-[40px] font-primary">
               Mit uns stehen Sie im Recht.
               </h2>
               <p class="text-base text-body-color">
