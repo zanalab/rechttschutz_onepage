@@ -11,7 +11,6 @@ import Footer from '@/components/Footer';
 import {Logo} from '../../public/images/logo_up.png';
 import { WhatsAppWidget } from 'react-whatsapp-widget';
 import 'react-whatsapp-widget/dist/index.css';
-import Pricing from '@/components/Pricing';
 
 const Index = () => {
   return (
@@ -21,7 +20,6 @@ const Index = () => {
       <Services />
       <Team />
       <CTA />
-      <Pricing/>
       <Contact />
       <Footer />
       <div style={{ position: 'relative', zIndex: 100 }}>

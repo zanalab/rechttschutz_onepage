@@ -1,3 +1,5 @@
+import ContactForm from '@/ui_components/ContactForm';
+
 const Contact = () => {
   return (
     <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
@@ -79,44 +81,7 @@ const Contact = () => {
           {/* Form */}
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-              <form>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-brand-orange focus-visible:shadow-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
-                    type="email"
-                    placeholder="Email Adresse"
-                    class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-brand-orange focus-visible:shadow-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    placeholder="Telefonnummer (optional)"
-                    class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-brand-orange focus-visible:shadow-none"
-                  />
-                </div>
-                <div class="mb-6">
-                  <textarea
-                    rows="6"
-                    placeholder="Geben Sie hier Ihre Nachricht ein..."
-                    class="border-[f0f0f0] w-full resize-none rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-brand-orange focus-visible:shadow-none"
-                  ></textarea>
-                </div>
-                <div>
-                  <button
-                    type="submit"
-                    class="w-full rounded border border-brand-orange bg-brand-orange font-semibold p-3 text-dark transition hover:bg-opacity-90"
-                  >
-                    Jetzt absenden!
-                  </button>
-                </div>
-              </form>
+              <ContactForm />
               <div>
                 <span class="absolute -top-10 -right-9 z-[-1]">
                   <svg
